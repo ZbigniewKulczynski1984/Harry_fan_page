@@ -199,3 +199,19 @@ h1 {
 .btn span {
 	color: #fff;
 }
+
+.info {
+	font-size: 30px;
+	font-weight: bold;
+	font-family: 'Caveat', sans-serif;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	text-align: center;
+	width: 900px;
+}
+
+.info h2 {
+	font-size: 45px;
+	font-weight: bold;
+}

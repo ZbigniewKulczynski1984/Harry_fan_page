@@ -215,3 +215,42 @@ h1 {
 	font-size: 45px;
 	font-weight: bold;
 }
+
+/* navigation/footer */
+
+.bottom {
+	text-decoration: none;
+	color: #07466d;
+	border: 1px solid #07466d;
+	border-radius: 5px;
+	margin: 20px;
+	padding: 20px;
+}
+
+hr {
+	color: #07466d;
+}
+
+.bottom-ul {
+	display: flex;
+	justify-content: center;
+}
+
+.bottom-list {
+	list-style: none;
+}
+
+.bottom-anchor {
+	padding: 0 10px;
+	font-size: 23px;
+	gap: 20px;
+	font-weight: bold;
+	color: #07466d;
+	text-decoration: none;
+	list-style: none;
+	border: none;
+}
+.bottom-anchor:hover {
+	color: #fff;
+	text-decoration: underline #07466d;
+}

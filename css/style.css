@@ -12,6 +12,8 @@ body {
 	background-color: rgb(218, 214, 214);
 }
 
+/* header/nav */
+
 .login {
 	font-family: 'Nunito', sans-serif;
 	display: flex;
@@ -119,4 +121,81 @@ body {
 .bar.active {
 	background-color: #fff;
 	z-index: 99;
+}
+
+.fa-solid:hover {
+	color:#fff;
+} 
+
+h1 {
+	font-family: 'Caveat', sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 80px;
+	font-weight: bold;
+	margin: 70px;
+}
+
+/* main */
+
+.main-icon {
+	
+	text-align: center;
+}
+.main-icon i {
+	background-color: rgb(218, 214, 214);
+	font-size: 130px;
+}
+
+#slider {
+	font-family: serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 50vh;
+}
+
+.slider {
+	position: relative;
+	height: 400px;
+	width: 800px;
+	border-radius: 6px;
+	overflow: hidden;
+}
+
+.slider-box {
+	display: flex;
+	transform: translateX(0);
+	transition: transform 0.5s;
+}
+
+.slider-img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.btn {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	padding: .5em .8em;
+	font-size: 2rem;
+	font-weight: bold;
+	background-color: rgba(0, 0, 0, 0.4);
+	border: none;
+	cursor: pointer;
+}
+
+.btn-left {
+	left: 0;
+}
+
+.btn-right {
+	right: 0;
+}
+
+.btn span {
+	color: #fff;
 }

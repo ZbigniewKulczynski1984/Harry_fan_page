@@ -2,23 +2,23 @@
 
 * {
 	box-sizing: border-box;
-	color:#07466d;
+	color: #07466d;
 	margin: 0;
 	padding: 0;
 }
 
 body {
-    font-family: 'Caveat', sans-serif;
+	font-family: 'Caveat', sans-serif;
 	background-color: rgb(218, 214, 214);
 }
 
 .login {
-    font-family: 'Nunito', sans-serif;
+	font-family: 'Nunito', sans-serif;
 	display: flex;
 	justify-content: start;
 }
 
-.login-anchor {	
+.login-anchor {
 	position: fixed;
 	top: 30px;
 	right: 30px;
@@ -83,4 +83,40 @@ body {
 	color: #fff;
 	text-decoration: underline #07466d;
 	transition: 0.3s;
+}
+
+.hamburger {
+	display: block;
+	font-weight: bold;
+	position: absolute;
+	top: 35px;
+	left: 50px;
+	display: block;
+	cursor: pointer;
+}
+
+.hamburger.active .bar:nth-child(2) {
+	opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(1) {
+	transform: translateY(11px) rotate(50deg);
+}
+
+.hamburger.active .bar:nth-child(3) {
+	transform: translateY(-8px) rotate(-50deg);
+}
+
+.bar {
+	display: block;
+	width: 35px;
+	height: 5px;
+	margin: 5px auto;
+	background-color: #07466d;
+	transition: all 0.3s ease-in-out;
+}
+
+.bar.active {
+	background-color: #fff;
+	z-index: 99;
 }

@@ -282,3 +282,10 @@ hr {
 .social-media i:hover {
 	color: #fff;
 }
+
+footer {
+	font-family: 'Nunito', sans-serif;
+	margin: 50px 200px;
+	text-align: center;
+	font-size: 12px;
+}

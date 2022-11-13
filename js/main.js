@@ -2,7 +2,7 @@ const sliderBox = document.querySelector('.slider-box')
 const leftBtn = document.querySelector('.btn-left')
 const rightBtn = document.querySelector('.btn-right')
 const carouselImages = document.querySelectorAll('.slider-img')
-const carouselWidth = 800
+const carouselWidth = 1100
 const carouselSpeed = 3000
 
 let index = 0

@@ -138,6 +138,13 @@ h1 {
 
 /* main */
 
+.img {
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 600px;
+}
+
 .main-icon {
 	
 	text-align: center;

@@ -134,7 +134,7 @@ h1 {
 	font-size: 80px;
 	font-weight: bold;
 	margin: 70px;
-	margin-bottom: 0;
+	margin-bottom: 20px;
 	padding-top: 70px;
 }
 
@@ -229,7 +229,6 @@ h1 {
 .accordion {
 	text-align: center;
 	margin: 20px;
-	
 }
 
 h2 {
@@ -237,20 +236,23 @@ h2 {
 	padding: 5px 20px;
 }
 
-.accordion {
+/* .accordion {
 	width: 100%;
 	border-radius: 8px;
-}
+} */
 
 .accordion-buttons {
-	text-align: center;
+	/* text-align: center; */
 	margin: 20px;
 }
 
 .accordion-btn p{
-	font-size: 40px;
-	background-color: rgb(218, 214, 214);
+	color: #07466d;
 	cursor: pointer;
+}
+
+.click {
+	font-size: 22px;
 }
 
 .accordion-btn {
@@ -274,10 +276,10 @@ h2 {
 	display: none;
 	font-size: 28px;
 	font-weight: bold;
-	
+
 }
 
-.active {
+.accordion-info.active {
 	display: block;
 }
 

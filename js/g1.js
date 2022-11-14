@@ -1,4 +1,4 @@
-fetch('http://hp-api.herokuapp.com/api/characters/house/slytherin')
+fetch('http://hp-api.herokuapp.com/api/characters/house/gryffindor')
 	.then((data) => {
 		return data.json();
 	})
@@ -23,7 +23,7 @@ fetch('http://hp-api.herokuapp.com/api/characters/house/slytherin')
 		  </div>
 		</div>`;
 				}
-				document.getElementById('slytherin').innerHTML = favData;
+				document.getElementById('gryffindor').innerHTML = favData;
 			}
 		});
 	});

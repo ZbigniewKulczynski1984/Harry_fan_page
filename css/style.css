@@ -242,6 +242,13 @@ h2 {
 	padding: 5px 20px;
 }
 
+.img-home {
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 700px;
+	
+}
 /* .accordion {
 	width: 100%;
 	border-radius: 8px;

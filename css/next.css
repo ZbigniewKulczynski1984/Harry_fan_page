@@ -331,6 +331,15 @@ form .btn input[type='submit'] {
     flex-direction: column;
 }
 
+/* .gallery {
+	display: flex;
+	background-image: url('/img/syriusz.png');
+	background-image: url('/img/platform.jpg');
+	width: 700px;
+	height: 700px;
+	background-repeat: no-repeat;
+} */
+
 img {
 	position: relative;
 	left: 50%;

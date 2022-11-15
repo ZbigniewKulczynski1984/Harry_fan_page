@@ -8,8 +8,8 @@ async function getStudents(url) {
 	});
 }
 function listStudents() {
-	const student = document.getElementById('slytherin');
-	for (let i = 0; i < 5; i++) {
+	const student = document.getElementById('ravenclaw');
+	for (let i = 0; i < 1; i++) {
 		if (studentArray[i] == false) {
 			student.innerHTML += `<div class="card">
 	  <img class="image" src="${studentArray[0].image}"</img>

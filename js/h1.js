@@ -8,8 +8,8 @@ async function getStudents(url) {
 	});
 }
 function listStudents() {
-	const student = document.getElementById('slytherin');
-	for (let i = 0; i < 5; i++) {
+	const student = document.getElementById('hufflepuff');
+	for (let i = 0; i < 1; i++) {
 		if (studentArray[i] == false) {
 			student.innerHTML += `<div class="card">
 	  <img class="image" src="${studentArray[0].image}"</img>
@@ -23,7 +23,7 @@ function listStudents() {
 	  </div>`;
 		} else if (studentArray[i] == '') {
 			student.innerHTML += `<div class="card">
-	  <img class="image" src="${studentArray[i].image}"</img>
+			<img class="image" src="${studentArray[i]}"</img>
 		<div class="container">
 		  <ul>
 		  <li><h2>Name:${studentArray[i].name}</h2></li>
@@ -45,7 +45,7 @@ function listStudents() {
 		}
 	}
 		}
-getStudents('http://hp-api.herokuapp.com/api/characters/house/huffelpuff').then(() => {
+getStudents('http://hp-api.herokuapp.com/api/characters/house/hufflepuff').then(() => {
 	listStudents();
 })
 
